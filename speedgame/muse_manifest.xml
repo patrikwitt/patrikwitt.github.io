@@ -1,0 +1,50 @@
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="false" ftp_hostname="ftp://waws-prod-db3-003.ftp.azurewebsites.windows.net" ftp_rootfolder="/site/wwwroot" exportTarget="FTP" domain="www.spgame.se" resolutions="1x" timestamp="1478077438279">
+  <folder name="css">
+    <file name="site_global.css" crc="3916556066"/>
+    <file name="master_a-master.css" crc="4066201151" ref="brands:index:contact"/>
+    <file name="brands.css" crc="3968508116" ref="brands"/>
+    <file name="index.css" crc="4274027377" ref="index"/>
+    <file name="contact.css" crc="285380924" ref="contact"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+    <file name="museutils.js" crc="3851988764" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+    <file name="museconfig.js" crc="169177150" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+    <file name="pie.js" crc="3831537696" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="271560940" ref="phone>index:index"/>
+    <file name="jquery.musemenu.js" crc="4150485998" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+    <file name="require.js" crc="4108833657" ref="phone>index:phone>brands:phone>contact:index:contact:brands"/>
+  </folder>
+  <folder name="images">
+    <file name="speedgamebg_big.jpg" crc="371152157" ref="phone>index"/>
+    <file name="speedgame_logg_png.png" crc="184894641" seo="true" ref="phone>index:phone>brands:phone>contact"/>
+    <file name="rollytoys87x55.png" crc="4168203189" seo="true" ref="phone>brands"/>
+    <file name="molto.png" crc="433557120" seo="true" ref="phone>brands:brands"/>
+    <file name="klein.jpg" crc="4253914931" seo="true" ref="phone>brands:brands"/>
+    <file name="funville.jpg" crc="4134781655" seo="true" ref="phone>brands:brands"/>
+    <file name="fivestars.jpg" crc="3927012083" seo="true" ref="phone>brands:brands"/>
+    <file name="dimian.png" crc="331334985" seo="true" ref="phone>brands:brands"/>
+    <file name="speedgamebg_big-u1584-fr.jpg" crc="4240597746" ref="index"/>
+    <file name="speedgame.png" crc="327550272" seo="true" ref="index:contact:brands"/>
+    <file name="dreams of travel.jpg" crc="3990162026" seo="true" ref="index"/>
+    <file name="dreams.jpg" crc="4207562786" seo="true" ref="contact"/>
+    <file name="rollytoys.png" crc="12350805" seo="true" ref="brands"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-master.css" crc="41157078" ref="phone>brands:phone>contact:phone>index"/>
+      <file name="brands.css" crc="54958218" ref="phone>brands"/>
+      <file name="contact.css" crc="3887029853" ref="phone>contact"/>
+      <file name="index.css" crc="14632833" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4086784357" seo="true" mt="1478077422111" redirect="true"/>
+    <file name="brands.html" crc="351475977" seo="true" mt="1478077422111" redirect="true"/>
+    <file name="contact.html" crc="73404520" seo="true" mt="1478077422111" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="473388569" seo="true" mt="1478077412328" redirect="true"/>
+  <file name="contact.html" crc="3814733771" seo="true" mt="1478077412328" redirect="true"/>
+  <file name="brands.html" crc="354694102" seo="true" mt="1478077412328" redirect="true"/>
+</manifest>
