@@ -49,6 +49,7 @@
   .skip-link:focus { top: 1rem; }
   .wordmark { display: inline-flex; flex-direction: column; align-items: flex-start; flex-shrink: 0; text-decoration: none; line-height: 1.2; white-space: nowrap; }
   .wordmark > img { width: 190px; height: auto; mix-blend-mode: multiply; }
+  .site-header .wordmark > img { width: 285px; }
   .wordmark span { display: block; font-family: Arial, sans-serif; font-size: .48rem; letter-spacing: .23em; margin-top: .5rem; }
   nav a { text-decoration: none; font-size: .8rem; padding-block: .7rem; }
   nav a:hover, .text-link:hover { text-decoration: underline; text-underline-offset: 5px; }
@@ -108,7 +109,8 @@
 }
 @media (max-width: 1000px) {
   .wrap { width: calc(100% - 3rem); }
-  .site-header nav { margin-right: 0; gap: 1.4rem; }
+  .site-header { flex-wrap: wrap; padding-block: 1.5rem; row-gap: 1rem; }
+  .site-header nav { order: 3; width: 100%; justify-content: center; margin: 0; gap: 1.4rem; }
   .hero { gap: 2rem; }
   .hero-actions { gap: .8rem; }
   .about-content, .brands, .contact-layout { gap: 3rem; }
@@ -120,7 +122,7 @@
 @media (max-width: 700px) {
   .wrap { width: calc(100% - 2.5rem); }
   .site-header { min-height: 100px; flex-wrap: wrap; gap: 1rem; padding-block: 1.25rem .5rem; }
-  .wordmark > img { width: 150px; }
+  .site-header .wordmark > img { width: 225px; }
   .site-header > .button { margin-left: auto; font-size: .7rem; padding-inline: .85rem; gap: .7rem; }
   .site-header nav { order: 3; width: 100%; justify-content: center; gap: 2rem; }
   .hero { grid-template-columns: 1fr; padding-block: 30px 40px; gap: 1rem; }

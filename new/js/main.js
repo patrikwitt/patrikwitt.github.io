@@ -30,6 +30,13 @@ function applyTheme(id) {
   themeColor?.setAttribute('content', theme.colors.paper);
 }
 
+function selectTheme(theme) {
+  selectedId = theme.id;
+  applyTheme(selectedId);
+  try { localStorage.setItem(storageKey, selectedId); } catch { /* Optional. */ }
+  status.textContent = `${theme.name} selected. ${theme.description}.`;
+}
+
 function closePicker() {
   picker.open = false;
   applyTheme(selectedId);
@@ -67,31 +74,28 @@ for (const [index, theme] of themes.entries()) {
     if (event.pointerType === 'mouse' && picker.open) applyTheme(theme.id);
   });
   radio.addEventListener('focus', () => applyTheme(theme.id));
-  radio.addEventListener('change', () => {
-    selectedId = theme.id;
-    applyTheme(selectedId);
-    try { localStorage.setItem(storageKey, selectedId); } catch { /* Optional. */ }
-    status.textContent = `${theme.name} selected. ${theme.description}.`;
-  });
-  // A click also restores a checked theme after previewing another option.
-  radio.addEventListener('click', () => applyTheme(theme.id));
+  radio.addEventListener('change', () => selectTheme(theme));
+  // Commit on activation too, including a tap on the already-selected radio.
+  radio.addEventListener('click', () => selectTheme(theme));
   options.append(label);
 }
 
 picker.addEventListener('pointerenter', event => {
   if (event.pointerType === 'mouse') picker.open = true;
 });
-picker.addEventListener('pointerleave', () => {
+picker.addEventListener('pointerleave', event => {
+  // Touch pointers leave after a tap; dismissing here can swallow its click.
+  if (event.pointerType !== 'mouse') return;
   applyTheme(selectedId);
   if (!options.contains(document.activeElement)) closePicker();
 });
 picker.addEventListener('toggle', () => {
   if (!picker.open) applyTheme(selectedId);
 });
-picker.addEventListener('pointerleave', event => {
-  if (event.pointerType === 'mouse' && !options.contains(document.activeElement)) closePicker();
-});
-picker.addEventListener('focusout', () => {
+picker.addEventListener('focusout', event => {
+  // Some touch browsers blur the summary without focusing the tapped radio.
+  // Outside-pointer handling still dismisses the menu in that case.
+  if (!event.relatedTarget) return;
   // Let focus move before deciding whether the whole widget was left.
   setTimeout(() => {
     if (!picker.contains(document.activeElement)) closePicker();
