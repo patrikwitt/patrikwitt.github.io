@@ -1,0 +1,8 @@
+# Private product-line drafts; never include in site output.
+/new/inspiration/
+
+# macOS metadata
+.DS_Store
+
+# Python preview helper cache
+__pycache__/
