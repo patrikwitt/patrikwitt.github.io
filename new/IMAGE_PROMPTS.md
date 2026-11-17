@@ -1,5 +1,19 @@
 # Product cutout edit prompts
 
+## Retail packaging shelf concept
+
+Output: `images/retail-packaging-shelves-concept.webp`
+
+Generate a photorealistic landscape toy-store shelf mock-up using the supplied
+tractor, building blocks, and pounding bench cutouts as product references.
+Make coordinated packaging the main subject: closed off-white boxes with slate
+blue headers, sage panels, and ochre accents. Repeat sensible retail facings
+across three oak shelves, showing shelf supports and an adjacent aisle so the
+store setting is clear. Preserve original product forms and paint colors in
+the package photography. Use only descriptive product names, no invented
+brand, age labels, quantities, certifications, prices, or business claims.
+Packaging and store are fictional prototypes, not approved catalogue assets.
+
 ## sorting-triangle
 
 Output: `images/sorting-triangle.webp`

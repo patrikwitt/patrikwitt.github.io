@@ -1,5 +1,35 @@
 # Assets and reference direction
 
+## Retail packaging shelf mock-up
+
+- `images/retail-packaging-shelves-concept.webp` (1536 × 1024): generated with
+  the built-in image tool at the user's request, using the supplied tractor,
+  building blocks, and pounding bench cutouts as references.
+- Shows matching hypothetical off-white, slate-blue, sage, and ochre boxes in
+  repeated facings on three shelves in a fictional toy store. Product paint
+  colors were requested unchanged; AI generation may introduce detail differences.
+- Packaging is a design concept, not approved packaging or evidence of an actual
+  retail installation. The visible caption labels it an AI-generated packaging
+  prototype. Surrounding store merchandise is illustrative.
+- No third-party stock source or attribution requirement. Optimized WebP;
+  generated original retained outside the public website. Prompt recorded in
+  IMAGE_PROMPTS.md. Replaces the earlier loose-tractor display in this section.
+
+## Earlier retail product-development mock-up (unused)
+
+- `images/retail-display-concept.webp` (1536 × 1024): generated with the built-in
+  image tool for the retailer development section, using `images/tractor.webp`
+  as the product reference, at the user's request. Generated November 17, 2026.
+- Fictional toy-store interior with the supplied wooden tractor, trailer,
+  animals, and sheep on an oak table. Original product paint colors were
+  requested unchanged; generation can introduce small detail differences.
+- No real store, retail partnership, exclusive product agreement, or final
+  catalogue photography is represented. The visible caption explicitly labels
+  it an AI-generated prototype preview. Background toys are illustrative.
+- No third-party stock source or attribution requirement is involved.
+- Original generated PNG retained outside the public site; the public asset is
+  an optimized WebP (about 189 KiB).
+
 ## Private reference PDFs
 
 `inspiration/NIVA_graphic_profile_update.pdf` (8 pages) and

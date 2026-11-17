@@ -41,6 +41,7 @@
   .section-heading .eyebrow, .brands .eyebrow { margin-bottom: 1.4rem; }
   .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
   .brands { align-items: center; }
+  .retail-section { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; border-bottom: 1px solid var(--line); }
   .contact-layout { display: grid; grid-template-columns: 1.1fr 1fr; gap: 6rem; align-items: center; padding-block: 90px; }
   .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding-block: 35px; }
 }
@@ -71,6 +72,13 @@
   .niva-preview img { width: 100%; height: auto; }
   .niva-preview .image-note { margin-top: .75rem; }
   .body-large { font-family: var(--serif); font-size: 1.65rem; line-height: 1.4; }
+  .retail-copy .eyebrow { margin-bottom: 1.4rem; }
+  .retail-copy h2 { margin-bottom: 1.8rem; }
+  .retail-copy p + p { margin-top: 1.2rem; }
+  .retail-copy p:not(.eyebrow):not(.body-large) { font-size: .93rem; color: var(--muted); }
+  .retail-copy .button { margin-top: 1.8rem; }
+  .retail-mockup img { width: 100%; height: auto; border-radius: 3px; }
+  .retail-mockup figcaption { margin-top: .9rem; }
   .about-content p:not(.body-large), .brands-copy p:not(.body-large) { color: var(--muted); font-size: .93rem; }
   .products-section { background: var(--section); }
   .product-art { position: relative; background: var(--blue); overflow: hidden; border-radius: 3px; }
@@ -124,7 +132,8 @@
   .site-header { min-height: 100px; flex-wrap: wrap; gap: 1rem; padding-block: 1.25rem .5rem; }
   .site-header .wordmark > img { width: 225px; }
   .site-header > .button { margin-left: auto; font-size: .7rem; padding-inline: .85rem; gap: .7rem; }
-  .site-header nav { order: 3; width: 100%; justify-content: center; gap: 2rem; }
+  .site-header nav { order: 3; width: 100%; justify-content: center; flex-wrap: wrap; gap: .25rem 1.25rem; }
+  .retail-section { grid-template-columns: 1fr; }
   .hero { grid-template-columns: 1fr; padding-block: 30px 40px; gap: 1rem; }
   .hero-copy { padding-block: 1rem; }
   h1 { font-size: clamp(3.4rem, 12vw, 5rem); }

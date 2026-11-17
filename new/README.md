@@ -49,7 +49,7 @@ be included. Selected image extracts in `images/` are intentionally included.
 
 - `index.html`: responsive introduction, seven wooden-toy previews, NIVA concepts, brand enquiries,
   and contact details.
-- `css/styles.css`: muted blue, sage, yellow, and pink accents, fluid typography, responsive layouts.
+- `css/styles.css`: theme-based blue, sage, ochre, and neutral surfaces, fluid typography, responsive layouts.
 - `js/main.js`: theme preview, selection, local persistence, and copyright year.
 - `js/themes.js`: the ten palettes and default selection.
 - `images/`: optimized product cutouts, selected PDF extracts, and original favicon.
@@ -67,6 +67,14 @@ be included. Selected image extracts in `images/` are intentionally included.
 - Review the layout in browsers at mobile, tablet, and desktop widths.
 
 No form backend, analytics, cookies, or external services are included.
+
+## Retailer product development
+
+The “For stores” section describes developing unique product lines using
+SpeedGame's sourcing knowledge and years of development experience. It links
+directly to Jenny with a product-development email subject. Its coordinated packaging and toy-store shelf
+image is explicitly labelled as an AI-generated prototype, not a real retail
+installation or final catalogue photo. Asset origin is recorded in ASSETS.md.
 
 ## Live color comparison
 
